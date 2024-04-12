@@ -1,0 +1,180 @@
+.header{
+  height: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(19, 28, 37);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none;
+}
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background-color: #000; 
+    padding-top: 5px;
+}
+
+#projectFormContainer {
+    margin-left: 300px;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.formInput {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.project-item  h3,p
+{
+    color: greenyellow;
+}
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color:white;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: greenyellow;
+}
+
+.navbar{
+    height:40px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin-left: 220px;
+    background-color:rgb(19, 28, 37); 
+}
+#centeredDiv{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(108,112,123); 
+    border: 1px solid #ccc;
+    margin-top: 150px;
+    margin-left: 350px;
+    border-radius: 5px;
+    color: white;
+}
+hr{
+    border: 1px solid gray;
+}
+#page-body{
+    margin-left: 15%;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+
+.task-table{
+    width: 80%;
+    align-items: center;
+}
+.navbar input:hover {
+    background-color:greenyellow;
+    color: #fff;
+}
+.employee-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+/*#right-sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background-color: #000;
+    padding-top: 5px;
+    right: 0;
+}*/
+#alertContainer {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    margin-left: 15%;
+    color:red;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content {
+    margin-left: 250px;
+    padding: 16px;
+}
+
+#TaskCreateDiv{
+margin-left: 20%;    
+background-color: black;
+color: yellowgreen;
+height:auto;
+width: 35%;
+margin: center;
+margin-top: 10%;
+padding-top: 10px;
+padding-bottom: 10px ;
+border-radius: 10px;
+box-shadow: 5px 5px light;
+}
+#TaskCreateDiv label{
+    padding-top: 10px;
+}
+
+#loadingPart{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    padding-top: 5px;
+    color: #f1f1f1;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
